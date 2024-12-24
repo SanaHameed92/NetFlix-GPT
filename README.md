@@ -31,6 +31,12 @@
 - Update Stone with Trailer Video 
 - Embedded the youtube and make it autoplay and mute
 - Tailwind classes to make main coantainer look awesome
+- BUilt Secondary component
+- build movie list
+- build movie card
+- TMDB CDN IMG URL
+- made the browser  page amazing with tailwind css  
+- created usepopularmovies,useToprated,useupcoming custom hooks
 
 
 

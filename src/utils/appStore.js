@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import userReducer from "./userSlice"
-import movieReducer from "./movieSlice"
+import userReducer from "../utils/userSlice"
+import movieReducer from "../utils/movieSlice"
 ;
 const appStore = configureStore(
     {
