@@ -5,6 +5,7 @@ import {  createUserWithEmailAndPassword ,signInWithEmailAndPassword, updateProf
 import {auth} from "../utils/firebase";
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
+import { BG_URL } from '../utils/constants';
 
 
 
@@ -92,7 +93,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/150c4b42-11f6-4576-a00f-c631308b1e43/web/US-en-20241216-TRIFECTA-perspective_16158377-32b2-42cc-ba71-15929be7d1f2_medium.jpg"
+          src={BG_URL}
           alt="Background-logo"
         />
       </div>
